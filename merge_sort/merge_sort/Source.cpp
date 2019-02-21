@@ -13,6 +13,7 @@ public:
 		a = new int[n];
 		for (int i = 0; i < n; i++)
 			cin >> a[i];
+		merge_sort(0, n);
 	}
 	void merge_sort(int low, int high)
 	{
@@ -49,7 +50,7 @@ public:
 	}
 	void display()
 	{
-		for (int i = 0; i < n; i++)
+		for (int i = 1; i <= n; i++)
 			cout << a[i] << " ";
 	}
 };
@@ -57,6 +58,7 @@ int main()
 {
 	merge m;
 	m.get_data();
-	m.merge_sort(0,n);
+	
 	m.display();
+	system("pause");
 }
