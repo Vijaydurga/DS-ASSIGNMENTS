@@ -18,14 +18,10 @@ void get_data()
 	binary_search(ele);
 }
 void  binary_search(int ele)
-{
-	cout <<" HERE" << endl;
-	
-	
+{	
 	while (low <=high)
 	{
 		int mid = (low + high) / 2;
-		cout << " HERE 2 " << endl;
 		if (ele > a[mid])
 			low = mid + 1;
 		else if (ele < a[mid])
