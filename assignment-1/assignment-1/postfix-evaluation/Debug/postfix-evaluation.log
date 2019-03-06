@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\cdac\source\repos\vijaydurga\ds-assignments\assignment-1\assignment-1\postfix-evaluation\source.cpp(21): warning C4091: 'typedef ': ignored on left of 'stack_implementation' when no variable is declared
+  postfix-evaluation.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\DS-ASSIGNMENTS\assignment-1\assignment-1\Debug\postfix-evaluation.exe
+  postfix-evaluation.vcxproj -> C:\Users\cdac\Source\Repos\Vijaydurga\DS-ASSIGNMENTS\assignment-1\assignment-1\Debug\postfix-evaluation.pdb (Full PDB)

@@ -64,7 +64,7 @@ public:
 int main()
 {
 	stack1 st1;
-	int x,ch;
+	int x,ch,y;
 	cout << "enter size of stack :"<<endl;
 	cin >> x;
 	st1.get_size(x);
@@ -74,17 +74,19 @@ int main()
 		cin >> ch;
 		switch (ch)
 		{
-		case 1: cout << "enter element to be pushed : ";
+		case 1: cout << "enter element to be pushed : "<<endl;
 			cin >> x;
 			st1.push(x);
 			break;
-		case 2: x = st1.pop();
+		case 2:y = st1.pop();
 			cout << "poped element is " << x << endl;
 			break;
 		case 3: st1.display();
 			break;
 		case 4: break;
 		}
+		if(ch == 4)
+			break;
 	}
 	system("pause");
 }
